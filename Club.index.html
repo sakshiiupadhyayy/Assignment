@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Welcome to our Coding Club">
+
+    <title>Coding Club</title>
+
+    <link rel="stylesheet" href="club.style.css">
+</head>
+<body>
+
+    <header id="hero">
+        <h1>Coding Club</h1>
+        <p>Learn. Build. Share.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Upcoming Events</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Date</th>
+                        <th>Venue</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML Workshop</td>
+                        <td>12 Nov</td>
+                        <td>Lab 1</td>
+                    </tr>
+                    <tr>
+                        <td>Hackathon</td>
+                        <td>20 Nov</td>
+                        <td>Seminar Hall</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total events: 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>Register</h2>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"
+                       placeholder="Your name" required>
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="you@example.com" required>
+                <br>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Coding Club</p>
+    </footer>
+
+</body>
+</html>
